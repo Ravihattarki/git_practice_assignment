@@ -4,22 +4,23 @@ let count=0;
 
 for(let i=0;i<=num;i++){
 if(num%i==0){
-count++;
+
+
+
+factor++;
 }
 }
-if(count==2)
-{
+if(factor==2){
 return true;
 }
-return false
+return false;
 }
+let res=check(13);
+if(res==true){
+console.log("prime");
+}
+else{
+console.log("not")
+} 
 
-let ans=check(13);
-if(ans==true)
-{
-console.log("prime")
-}
-else
-{
-console.log("not prime");
-}
+
